@@ -10,13 +10,13 @@ google镜像仓库：https://console.cloud.google.com/gcr/images/google-containe
 
 使用方法：
 
-拉取images
+拉取images：
 docker pull charlesqing/kube-apiserver-amd64:v1.13.2
 
-修改tag
+修改tag：
 docker tag charlesqing/kube-apiserver-amd64:v1.13.2 k8s.gcr.io/kube-apiserver-amd64:v1.13.2
 
-删除原镜像
+删除原镜像：
 docker rmi charlesqing/kube-apiserver-amd64:v1.13.2
 
 配置加速器：
